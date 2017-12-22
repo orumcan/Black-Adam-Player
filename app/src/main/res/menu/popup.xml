@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group android:id="@+id/group_popupmenu">
+        <item
+            android:id="@+id/songs"
+            android:showAsAction="ifRoom"
+            android:title="Songs"/>
+
+        <item
+            android:id="@+id/artist"
+            android:showAsAction="ifRoom"
+            android:title="Artist"/>
+
+    </group>
+
+</menu>

@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:onClick="songPicked"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/albumCover"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/bapl_note2"
+        android:layout_weight="5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dip"
+        android:orientation="vertical"
+        android:background="@drawable/list_selector"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/songTitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffcbfdff"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/songArtist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff73b2cd"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/songAlbum"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ff547bac"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/songDuration"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:textColor="#ff547bac"
+        android:textSize="14sp"
+        android:layout_weight="5" />
+
+</LinearLayout>

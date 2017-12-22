@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item
+        android:id="@+id/filter"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:title="Filter"/>
+
+    <item
+        android:id="@+id/action_shuffle"
+        android:icon="@drawable/bapl_shuffle0"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:title="Shuffle"/>
+
+    <item
+        android:id="@+id/action_repeat"
+        android:icon="@drawable/bapl_repeat1"
+        android:orderInCategory="3"
+        app:showAsAction="always"
+        android:title="Repeat"/>
+
+    <item
+        android:id="@+id/action_end"
+        android:icon="@drawable/bapl_end"
+        android:orderInCategory="4"
+        app:showAsAction="always"
+        android:title="End"/>
+
+</menu>
